@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mServiceBound) {
+
                     timestampText.setText(mBoundService.getTimestamp());
                 }
             }
